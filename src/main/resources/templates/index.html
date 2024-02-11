@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Hello Webler students!</h1>
+<div class="form-container">
+    <form action="/thy/students/search" method="get">
+        <input type="text" name="search" placeholder="Search by email address...">
+        <button type="submit" class="studentEmailSearchButton">Search students by email</button>
+    </form>
+</div>
+<form action="/thy/students" method="get">
+    <button type="submit" class="studentListButton">List all students</button>
+</form>
+
+<form action="/thy/students-hun" method="get">
+    <button type="submit" class="studentListButton">List all students Hungarian order</button>
+</form>
+</body>
+</html>

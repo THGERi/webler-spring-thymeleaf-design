@@ -1,0 +1,46 @@
+body {
+    background-image: url('images/webler.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: purple;
+    color: orange;
+}
+
+/* Add a class to the form container for styling */
+.form-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.studentListButton {
+    background-color: purple;
+    color: orange;
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+
+h2 {
+    font-size: 30px;
+}
